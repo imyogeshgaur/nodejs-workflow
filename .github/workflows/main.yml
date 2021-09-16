@@ -28,4 +28,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Install Node 
         uses: actions/setup-node@v2.4.0
+        
+      - name: Find Node Version
+        run: node -v
 
