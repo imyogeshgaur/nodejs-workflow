@@ -35,5 +35,8 @@ jobs:
       - name: Install Expressjs
         run: npm i express
         
+      - name: Run App.js File
+        run: node app.js
+        
       
 
